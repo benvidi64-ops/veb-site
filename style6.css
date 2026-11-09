@@ -16,7 +16,6 @@ body {
 
 /* HEADER */
 .header {
-    
     width:100%;
     padding:2px;
     background: linear-gradient(
@@ -25,8 +24,8 @@ body {
         #b8c9a8,
         #e8e2d2
     );
-   
-    
+    background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,12 +34,7 @@ body {
 }
 
 .header-overlay {
-    background-repeate:no-repeate;
     padding: 35px;
-    background-image:url("1.jfif");
-    background-size: cover;
-    background-position: center;
-    
 }
 
 .header h1 {
