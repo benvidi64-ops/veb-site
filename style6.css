@@ -16,7 +16,7 @@ body {
 
 /* HEADER */
 .header {
-    background-image:url("1.jfif");
+    
     width:100%;
     padding:2px;
     background: linear-gradient(
@@ -37,6 +37,10 @@ body {
 
 .header-overlay {
     padding: 35px;
+    background-image:url("1.jfif");
+    background-size: cover;
+    background-position: center;
+    
 }
 
 .header h1 {
