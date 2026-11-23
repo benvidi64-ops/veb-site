@@ -237,6 +237,24 @@ header{
         margin: 10px auto;
     }
 }
+/* تصاویر گالری */
+.gallery-img {
+    width: 500px;
+    max-width: 100%;
+    height: 200px;
+    object-fit: contain;
+    display: block;
+    margin: 15px auto;
+}
+
+/* نمایش تصاویر در گوشی */
+@media (max-width: 700px) {
+    .gallery-img {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+    }
+}
 
 
 
